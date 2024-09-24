@@ -18,7 +18,7 @@ def test_search_element(browser):
     browser.switch_to.window(all_tabs[-1])
     browser.find_element(By.CSS_SELECTOR,'button[class="QqFHMw vslbG+ _3Yl67G _7Pd1Fp"]').click()  # buy BUTTON
     time.sleep(4)
-    input("please do manual step and hit enter")
+    input("please do manual step and hit enter")   # it will wait till input given by user and after used this please use -s while run command
     # after this delivery button
 
 
